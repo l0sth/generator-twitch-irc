@@ -1,4 +1,5 @@
-# generator-twitch-irc [![Build Status](https://secure.travis-ci.org/Schmoopiie/generator-twitch-irc.png?branch=master)](https://travis-ci.org/Schmoopiie/generator-twitch-irc)
+# WORK IN PROGRESS
+## generator-twitch-irc [![Build Status](https://secure.travis-ci.org/Schmoopiie/generator-twitch-irc.png?branch=master)](https://travis-ci.org/Schmoopiie/generator-twitch-irc)
 
 > [Yeoman](http://yeoman.io) generator
 
