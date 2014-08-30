@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-twitchirc' ]; then cd .. && eval "mv $currentfolder generator-twitchirc" && cd generator-twitchirc; fi
+

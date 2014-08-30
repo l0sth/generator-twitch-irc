@@ -1,0 +1,49 @@
+{
+  "name": "generator-twitch-irc",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "https://github.com/Schmoopiie/generator-twitch-irc",
+  "author": {
+    "name": "Schmoopiie",
+    "email": "Schmoopiie@gmail.com",
+    "url": "https://github.com/Schmoopiie"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "twitch",
+    "irc",
+    "bot",
+    "socket",
+    "yeoman",
+    "generator"
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Schmoopiie/generator-twitch-irc/issues"
+  },
+  "licenses": [{
+     "type": "MIT",
+     "url": "https://raw.github.com/Schmoopiie/generator-twitch-irc/master/LICENSE"
+   }],
+  "dependencies": {
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
