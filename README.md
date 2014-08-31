@@ -8,7 +8,7 @@ This is a work in progress. There is no documentation available yet.
 
 > [Twitch-IRC](https://github.com/Schmoopiie/Twitch-IRC) library by Schmoopiie
 
-![](http://i.imgur.com/Av3ArZe.png)
+![](http://i.imgur.com/7PMEvN5.png)
 Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries. "Twitch-IRC" is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.
 
 ### What is Yeoman?
