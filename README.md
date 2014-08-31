@@ -6,7 +6,7 @@ This is a work in progress. There is no documentation available yet.
 **This project includes**
 > [Yeoman](http://yeoman.io) generator by Yeoman Team
 
-> [Twitch-IRC](https://github.com/Schmoopiie/Twitch-IRC) librairy by Schmoopiie
+> [Twitch-IRC](https://github.com/Schmoopiie/Twitch-IRC) library by Schmoopiie
 
 ![](http://i.imgur.com/kXbjWmX.png)
 Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries. "Twitch-IRC" is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.
