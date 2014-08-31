@@ -1,10 +1,9 @@
 # WORK IN PROGRESS
 ## generator-twitch-irc [![Build Status](https://secure.travis-ci.org/Schmoopiie/generator-twitch-irc.png?branch=master)](https://travis-ci.org/Schmoopiie/generator-twitch-irc)
+**This project includes**
+> [Yeoman](http://yeoman.io) generator by Yeoman Team
 
-> [Yeoman](http://yeoman.io) generator
-
-
-## Getting Started
+> [Twitch-IRC](https://github.com/Schmoopiie/Twitch-IRC) librairy by Schmoopiie
 
 ![](http://i.imgur.com/kXbjWmX.png)
 Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries. "Twitch-IRC" is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.
