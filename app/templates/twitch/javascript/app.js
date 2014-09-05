@@ -1,4 +1,5 @@
 var irc = require('./lib/twitch');
+var fs = require("fs");
 
 var client = new irc.client({
     options: {
@@ -16,4 +17,13 @@ var client = new irc.client({
 
 client.connect();
 
-// Events Injector
+if (fs.existsSync('./commands')) {
+    fs.readdirSync('./commands').forEach(function (file) {
+        require('./commands/' + file)(client);
+    });
+}
+if (fs.existsSync('./events')) {
+    fs.readdirSync('./events').forEach(function(file) {
+        require('./events/' + file)(client);
+    });
+}

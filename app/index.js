@@ -100,6 +100,7 @@ var TwitchIRCGenerator = yeoman.generators.Base.extend({
         var done = this.async();
         var oldConfig = this.config.getAll();
         if (Object.getOwnPropertyNames(oldConfig).length === 0) {
+            this.dest.mkdir('commands');
             this.dest.mkdir('events');
             this.dest.mkdir('logs');
             this.dest.mkdir('lib');
