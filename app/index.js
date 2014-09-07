@@ -101,6 +101,7 @@ var TwitchIRCGenerator = yeoman.generators.Base.extend({
         var oldConfig = this.config.getAll();
         if (Object.getOwnPropertyNames(oldConfig).length === 0) {
             this.dest.mkdir('commands');
+            this.dest.mkdir('database');
             this.dest.mkdir('events');
             this.dest.mkdir('logs');
             this.dest.mkdir('lib');
@@ -118,36 +119,20 @@ var TwitchIRCGenerator = yeoman.generators.Base.extend({
             };
             if (this.language === 'useJavascript') {
                 this.template("twitch/javascript/app.js", "app.js", context);
-                this.remote('Schmoopiie', 'Twitch-IRC', 'master', function (err, remote) {
-                    remote.directory('./javascript/twitch', './lib/twitch');
-                    this.conflicter.resolve(done);
-                }.bind(this), true);
             } else {
-                this.template("twitch/coffeescript/app.coffee", context);
-                this.remote('Schmoopiie', 'Twitch-IRC', 'master', function (err, remote) {
-                    if (!err) {
-                        remote.directory('./coffeescript/twitch', './lib/twitch');
-                    }
-                    this.conflicter.resolve(done);
-                }.bind(this), true);
+                this.template("twitch/coffeescript/app.coffee", "app.coffee", context);
             }
+            this.remote('Schmoopiie', 'Twitch-IRC', 'master', function (err, remote) {
+                remote.directory('./javascript/twitch', './lib/twitch');
+                this.conflicter.resolve(done);
+            }.bind(this), true);
             this.template("_package.json", "package.json", context);
-            this.template("_bower.json", "bower.json", context);
             this.template("_README.md", "README.md", context);
         } else {
-            if (oldConfig.language === 'useJavascript') {
-                this.remote('Schmoopiie', 'Twitch-IRC', 'master', function (err, remote) {
-                    remote.directory('./javascript/twitch', './lib/twitch');
-                    this.conflicter.resolve(done);
-                }.bind(this), true);
-            } else {
-                this.remote('Schmoopiie', 'Twitch-IRC', 'master', function (err, remote) {
-                    if (!err) {
-                        remote.directory('./coffeescript/twitch', './lib/twitch');
-                    }
-                    this.conflicter.resolve(done);
-                }.bind(this), true);
-            }
+            this.remote('Schmoopiie', 'Twitch-IRC', 'master', function (err, remote) {
+                remote.directory('./javascript/twitch', './lib/twitch');
+                this.conflicter.resolve(done);
+            }.bind(this), true);
         }
     },
 
