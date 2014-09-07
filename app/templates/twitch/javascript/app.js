@@ -17,6 +17,9 @@ var client = new irc.client({
 
 client.connect();
 
+/**
+ * Auto-load commands and events.
+ */
 if (fs.existsSync('./commands')) {
     fs.readdirSync('./commands').forEach(function (file) {
         require('./commands/' + file)(client);
