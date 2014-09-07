@@ -7,7 +7,7 @@ module.exports = function(client) {
      * @params {string} message
      */
     client.addListener('chat', function (channel, user, message) {
-        if (message.indexOf('<%= command %>') >= 0) {
+        if (message.indexOf('<%= command %>') === 0) {
             var params = message.split(' ');
 
             // Do your stuff.

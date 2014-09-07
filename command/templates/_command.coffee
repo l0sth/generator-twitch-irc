@@ -8,7 +8,7 @@ module.exports = (client) ->
   @params {string} message
   ###
   client.addListener "chat", (channel, user, message) ->
-    if message.indexOf("<%= command %>") >= 0
+    if message.indexOf("<%= command %>") is 0
       params = message.split(" ")
 
       # Do your stuff.

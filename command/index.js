@@ -14,15 +14,13 @@ var SubGeneratorGenerator = module.exports = yeoman.generators.Base.extend({
         var context = this.config.getAll();
         if (arguments.length >= 1) {
             this.dest.mkdir('/commands');
-            context = {
-                command: arguments[0]
-            }
+            context.command = arguments[0];
             if (context.language === 'useJavascript') {
-                console.log('['+chalk.green('!')+'] Generating '+chalk.yellow.bold('commands\\'+arguments[0]+'.js')+' for you..');
-                this.template("_command.js", "commands/" + arguments[0] + ".js", context, context);
+                console.log('['+chalk.green('!')+'] Generating '+chalk.yellow.bold('commands\\'+arguments[0].toLowerCase().replace(/[^a-zA-Z0-9]+/g, "")+'.js')+' for you..');
+                this.template("_command.js", "commands/" + arguments[0].toLowerCase().replace(/[^a-zA-Z0-9]+/g, "") + ".js", context, context);
             } else {
-                console.log('['+chalk.green('!')+'] Generating '+chalk.yellow.bold('commands\\'+arguments[0]+'.coffee')+' for you..');
-                this.template("_command.coffee", "commands/" + arguments[0] + ".coffee", context, context);
+                console.log('['+chalk.green('!')+'] Generating '+chalk.yellow.bold('commands\\'+arguments[0].toLowerCase().replace(/[^a-zA-Z0-9]+/g, "")+'.coffee')+' for you..');
+                this.template("_command.coffee", "commands/" + arguments[0].toLowerCase().replace(/[^a-zA-Z0-9]+/g, "") + ".coffee", context, context);
             }
         } else {
             console.log('['+chalk.green('!')+'] You need to type a command name.');
