@@ -47,20 +47,25 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 It is important for you to update from time to time your generators. Basically, all you need to to is type a simple word in your command prompt:
 
-```yo
+```bash
+yo
 ```
 
 ### Updating Your Twitch-IRC Library
 
 Go into your project root directory and type:
 
-```yo twitch-irc```
+```bash
+yo twitch-irc
+```
 
 ### Generating an event
 
 To make your life easier, you can generate an event using the generator:
 
-```yo twitch-irc:event <event name>```
+```bash
+yo twitch-irc:event <event name>
+```
 
 Please, click here for the events documentation. (TODO)
 
@@ -68,7 +73,9 @@ Please, click here for the events documentation. (TODO)
 
 This is a new feature and it is optional. Quickly create a command that you would like your bot to respond.
 
-```yo twitch-irc:command !<command name>```
+```bash
+yo twitch-irc:command !<command name>
+```
 
 Of course, only the basic code will be written for you. The generator will create a new file for your command in your commands directory and will be loaded when you start your bot.
 
