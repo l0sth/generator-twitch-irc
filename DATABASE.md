@@ -6,7 +6,7 @@ This is a new feature, you can now create a collection and interact with it like
 
 ```client.db.insert('collection', elements);```
 
-The elements can be an object or an array of object. The collection name will also be the file created in your database directory. You will have to use the same collection name to load it's data.
+The elements can be an object or an array of object. The collection name will also be the file created in your database directory. You will have to use the same collection name to interact with it.
 
 **Examples:**
 
