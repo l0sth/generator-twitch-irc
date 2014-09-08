@@ -21,8 +21,6 @@ The elements can be an object or an array of object. The collection name will al
 
 ```client.db.insert('monsters', {name: "HamoIzm", mythology: "amazigh", eyes: 2, sex: "m", hobbies: ["riddles","hunting"]});```
 
----
-
 ### Retrieve elements
 
 ```client.db.where('collection', query);```
@@ -70,8 +68,6 @@ The cid is not an index in array, cid is related with addition.
 
 ```=> {name: "cyclops", mythology: "greek", eyes: 1, sex: "m", hobbies: ["staring","terrorizing"], cid:3}```
 
----
-
 ### List all elements in a collection
 
 ```client.db.list('collection'); ```
@@ -79,8 +75,6 @@ The cid is not an index in array, cid is related with addition.
 **Example:**
 
 ```client.db.list('monsters'); ```
-
----
 
 ### Update an element in a collection
 
@@ -96,8 +90,6 @@ Update an element, it will add un-existed key and replace existed. (cid can't be
 
 ```=> {name: "medusa",  mythology: "greek", eyes: 3, food:"waloo", sex: "f", hobbies: ["coiling","staring"], cid:5}```
 
----
-
 ### Replace an element
 
 ```client.db.replace('collection', cid, object); ```
@@ -111,8 +103,6 @@ Replace an element with the same cid.
 ```client.db.get(6); ```
 
 ```=> {car: "Ferrari", cid:6}```
-
----
 
 ### Remove an element
 
