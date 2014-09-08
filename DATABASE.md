@@ -4,7 +4,9 @@ This is a new feature, you can now create a collection and interact with it like
 
 ### Insert, add or push elements
 
-```client.db.insert('collection', elements);```
+```bash
+client.db.insert('collection', elements);
+```
 
 The elements can be an object or an array of object. The collection name will also be the file created in your database directory. You will have to use the same collection name to interact with it.
 
@@ -25,7 +27,9 @@ The elements can be an object or an array of object. The collection name will al
 
 ### Retrieve elements
 
-```client.db.where('collection', query);```
+```bash
+client.db.where('collection', query);
+```
 
 Querying your collection is easy, you can search using an object or using operators:
 
@@ -62,6 +66,10 @@ Querying your collection is easy, you can search using an object or using operat
 
 ### Retrieve by cid
 
+```bash
+client.db.get('monsters', cid);
+```
+
 The cid is not an index in array, cid is related with addition.
 
 **Example:**
@@ -74,7 +82,9 @@ The cid is not an index in array, cid is related with addition.
 
 ### List all elements in a collection
 
-```client.db.list('collection'); ```
+```bash
+client.db.list('collection');
+```
 
 **Example:**
 
@@ -84,7 +94,9 @@ The cid is not an index in array, cid is related with addition.
 
 ### Update an element in a collection
 
-```client.db.update('collection', cid, object); ```
+```bash
+client.db.update('collection', cid, object);
+```
 
 Update an element, it will add un-existed key and replace existed. (cid can't be changed)
 
@@ -100,7 +112,9 @@ Update an element, it will add un-existed key and replace existed. (cid can't be
 
 ### Replace an element
 
-```client.db.replace('collection', cid, object); ```
+```bash
+client.db.replace('collection', cid, object);
+```
 
 Replace an element with the same cid.
 
@@ -116,7 +130,9 @@ Replace an element with the same cid.
 
 ### Remove an element
 
-```client.db.remove('collection', cid); ```
+```bash
+client.db.remove('collection', cid);
+```
 
 Delete an item by cid.
 
