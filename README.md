@@ -37,13 +37,13 @@ Finally, initiate the generator:
 yo twitch-irc
 ```
 
-### Getting To Know Yeoman
+### Getting to know Yeoman
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
-### Updating Your Generators
+### Updating your Generators
 
 It is important for you to update from time to time your generators. Basically, all you need to to is type a simple word in your command prompt:
 
@@ -51,7 +51,7 @@ It is important for you to update from time to time your generators. Basically, 
 yo
 ```
 
-### Updating Your Twitch-IRC Library
+### Updating your Twitch-IRC library
 
 Go into your project root directory and type:
 
@@ -59,7 +59,7 @@ Go into your project root directory and type:
 yo twitch-irc
 ```
 
-### Generating an event
+### Generating Events
 
 Generated events will be created in your events directory and will be loaded on startup.
 
@@ -69,7 +69,7 @@ yo twitch-irc:event <event name>
 
 Click here for the events documentation. (TODO)
 
-### Generating a command
+### Generating Commands
 
 Generated commands will be created in your commands directory and will be loaded on startup.
 
