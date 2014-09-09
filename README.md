@@ -85,6 +85,10 @@ Create collections and interact with them like any database management system. Y
 
 Click here for the [database documentation](https://github.com/Schmoopiie/generator-twitch-irc/blob/master/DATABASE.md).
 
+### Contributing Guidelines
+
+Please review the [guidelines for contributing](https://github.com/Schmoopiie/generator-twitch-irc/blob/master/CONTRIBUTING.md) to this repository.
+
 ### License
 
 The MIT License (MIT)
