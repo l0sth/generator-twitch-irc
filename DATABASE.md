@@ -27,7 +27,7 @@ client.db.insert('monsters', [
 client.db.insert('monsters', {name: "HamoIzm", mythology: "amazigh", eyes: 2, sex: "m", hobbies: ["riddles","hunting"]});
 ```
 
----
+--
 
 ### Retrieving elements
 
@@ -67,7 +67,7 @@ client.db.where('monsters', "(@eyes == 2 && @mythology == 'greek') || (@mytholog
 ]
 ```
 
----
+--
 
 ### Retrieving by cid
 
@@ -84,7 +84,7 @@ client.db.get('monsters', 3);
 => {name: "cyclops", mythology: "greek", eyes: 1, sex: "m", hobbies: ["staring","terrorizing"], cid:3}
 ```
 
----
+--
 
 ### Listing elements
 
@@ -98,7 +98,7 @@ client.db.list('collection');
 client.db.list('monsters');
 ```
 
----
+--
 
 ### Updating an element
 
@@ -116,7 +116,7 @@ client.db.get(5);
 => {name: "medusa",  mythology: "greek", eyes: 3, food:"waloo", sex: "f", hobbies: ["coiling","staring"], cid:5}
 ```
 
----
+--
 
 ### Replacing an element
 
@@ -134,7 +134,7 @@ client.db.get(6);
 => {car: "Ferrari", cid:6}
 ```
 
----
+--
 
 ### Removing an element
 
