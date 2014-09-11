@@ -3,7 +3,7 @@
 This is a work in progress. There is no documentation available yet.
 
 # generator-twitch-irc
-[![Build Status](https://secure.travis-ci.org/Schmoopiie/generator-twitch-irc.png?branch=master)](https://travis-ci.org/Schmoopiie/generator-twitch-irc) [![Code Climate](https://codeclimate.com/github/Schmoopiie/generator-twitch-irc/badges/gpa.svg)](https://codeclimate.com/github/Schmoopiie/generator-twitch-irc) [![Coverage Status](https://coveralls.io/repos/Schmoopiie/generator-twitch-irc/badge.png)](https://coveralls.io/r/Schmoopiie/generator-twitch-irc)
+[![Build Status](https://secure.travis-ci.org/Schmoopiie/generator-twitch-irc.png?branch=master)](https://travis-ci.org/Schmoopiie/generator-twitch-irc) [![Code Climate](https://codeclimate.com/github/Schmoopiie/generator-twitch-irc/badges/gpa.svg)](https://codeclimate.com/github/Schmoopiie/generator-twitch-irc)
 
 **This project includes**
 > [Yeoman](http://yeoman.io) generator by Yeoman Team
