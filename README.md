@@ -69,7 +69,7 @@ Generated events will be created in your events directory and will be loaded on 
 yo twitch-irc:event <event name>
 ```
 
-Click here for the events documentation. (TODO)
+Click here for the [events documentation](https://github.com/Schmoopiie/generator-twitch-irc/blob/master/EVENTS.md).
 
 ## Generating Commands
 
