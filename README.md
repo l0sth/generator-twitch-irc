@@ -19,8 +19,8 @@ Basically, he wears a top hat, lives in your computer, and waits for you to tell
 
 Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
 
-```javascript
-npm install -g yo
+```bash
+$ npm install -g yo
 ```
 
 ## Yeoman Generators
@@ -30,13 +30,13 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 To install generator-twitch-irc from npm, run:
 
 ```bash
-npm install -g generator-twitch-irc
+$ npm install -g generator-twitch-irc
 ```
 
 Finally, initiate the generator:
 
 ```bash
-yo twitch-irc
+$ yo twitch-irc
 ```
 
 ## Getting to know Yeoman
@@ -50,7 +50,7 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 It is important for you to update from time to time your generators. Basically, all you need to to is type a simple word in your command prompt:
 
 ```bash
-yo
+$ yo
 ```
 
 ## Updating your Twitch-IRC library
@@ -58,7 +58,7 @@ yo
 Go into your project root directory and type:
 
 ```bash
-yo twitch-irc
+$ yo twitch-irc
 ```
 
 ## Generating Events
@@ -66,7 +66,7 @@ yo twitch-irc
 Generated events will be created in your events directory and will be loaded on startup.
 
 ```bash
-yo twitch-irc:event <event name>
+$ yo twitch-irc:event <event name>
 ```
 
 [Click here for the events documentation](https://github.com/Schmoopiie/generator-twitch-irc/blob/master/EVENTS.md).
@@ -76,7 +76,7 @@ yo twitch-irc:event <event name>
 Generated commands will be created in your commands directory and will be loaded on startup.
 
 ```bash
-yo twitch-irc:command !<command name>
+$ yo twitch-irc:command !<command name>
 ```
 
 Only the basic code will be written for you.
