@@ -48,7 +48,7 @@ mods | Received mods list on a channel. | channel, mods
 part | User has left a channel. | channel, username
 permission | Encountered permission restrictions. | err
 ping | Received PING from server. | 
-pong | Received PONG from server. | 
+pong | Received PONG from server. | latency
 r9kbeta | Room is in r9k mode. | channel, boolean
 reconnect | Client is trying to reconnect to server. | 
 roomban | Received roomban from jtv. | room, username
