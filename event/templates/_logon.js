@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * Triggers right before the client sends informations to connect to server.
+     * Connection established, sending informations to server.
+     *
      * @event logon
      */
     client.addListener('logon', function () {

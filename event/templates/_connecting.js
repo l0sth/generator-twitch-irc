@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
      * Connecting to a server.
+     *
      * @event connecting
      * @params {string} address
      * @params {integer} port

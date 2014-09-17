@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * HOSTTARGET(hosting) message sent by JTV.
+     * Channel is now hosting another broadcaster.
+     *
      * @event hosting
      * @params {string} channel
      * @params {string} target

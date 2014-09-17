@@ -1,12 +1,13 @@
 module.exports = function(client) {
     /**
-     * Room is now in slow mode.
+     * Channel enabled or disabled slow mode.
+     *
      * @event slowmode
      * @params {string} channel
-     * @params {boolean} status
+     * @params {boolean} enabled
      * @params {string} length
      */
-    client.addListener('slowmode', function (channel, status, length) {
+    client.addListener('slowmode', function (channel, enabled, length) {
         // Do your stuff.
     });
 };

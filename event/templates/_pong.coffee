@@ -1,7 +1,8 @@
 module.exports = (client) ->
 
   ###*
-  Received PONG from server.
+  Sent a PING request ? PONG.
+
   @event pong
   @params {string} latency
   ###

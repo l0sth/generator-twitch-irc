@@ -1,11 +1,12 @@
 module.exports = (client) ->
 
   ###*
-  Room is now in subscribers-only mode.
+  Channel enabled or disabled subscribers-only mode.
+
   @event subscriber
   @params {string} channel
-  @params {boolean} status
+  @params {boolean} enabled
   ###
-  client.addListener "subscriber", (channel, status) ->
+  client.addListener "subscriber", (channel, enabled) ->
     # Do your stuff.
   return

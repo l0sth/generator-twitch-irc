@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * Encountered some kind of limitation by Twitch.
+     * Reached a limit by Twitch.
+     *
      * @event limitation
      * @params {object} err
      */

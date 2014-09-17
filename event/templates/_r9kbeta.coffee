@@ -1,11 +1,12 @@
 module.exports = (client) ->
 
   ###*
-  Room is in r9k mode.
+  Channel enabled or disabled R9K mode.
+
   @event r9kbeta
   @params {string} channel
-  @params {boolean} status
+  @params {boolean} enabled
   ###
-  client.addListener "r9kbeta", (channel, status) ->
+  client.addListener "r9kbeta", (channel, enabled) ->
     # Do your stuff.
   return

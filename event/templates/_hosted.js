@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * Room is now hosted by someone else.
+     * Channel is now hosted by another broadcaster.
+     *
      * @event hosted
      * @params {string} channel
      * @params {string} username

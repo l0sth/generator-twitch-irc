@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * CLEARCHAT message sent by JTV.
+     * Chat of a channel got cleared.
+     *
      * @event clearchat
      * @params {string} channel
      */

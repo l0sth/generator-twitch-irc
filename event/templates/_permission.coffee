@@ -1,7 +1,8 @@
 module.exports = (client) ->
 
   ###*
-  Encountered some kind of permission restrictions.
+  Permission restriction by Twitch. (Insufficient access)
+
   @event permission
   @params {object} err
   ###

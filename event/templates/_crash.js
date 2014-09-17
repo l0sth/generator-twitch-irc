@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
      * Client crashed.
+     *
      * @event crash
      * @params {string} message
      * @params {string} stack

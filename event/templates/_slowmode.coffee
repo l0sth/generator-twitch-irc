@@ -1,12 +1,13 @@
 module.exports = (client) ->
 
   ###*
-  Room is now in slow mode.
+  Channel enabled or disabled slow mode.
+
   @event slowmode
   @params {string} channel
-  @params {boolean} status
+  @params {boolean} enabled
   @params {string} length
   ###
-  client.addListener "slowmode", (channel, status, length) ->
+  client.addListener "slowmode", (channel, enabled, length) ->
     # Do your stuff.
   return

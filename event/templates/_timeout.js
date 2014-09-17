@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * CLEARCHAT(timeout) message sent by JTV.
+     * Someone has been timed out on a channel.
+     *
      * @event timeout
      * @params {string} channel
      * @params {string} username

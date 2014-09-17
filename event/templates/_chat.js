@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * Received a chat message on a channel.
+     * Received message on a channel.
+     *
      * @event chat
      * @params {string} channel
      * @params {object} user

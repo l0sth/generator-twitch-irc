@@ -1,6 +1,7 @@
 module.exports = function(client) {
     /**
-     * Received mods list on a channel.
+     * Received the list of mods of a channel.
+     *
      * @event mods
      * @params {string} channel
      * @params {array} mods

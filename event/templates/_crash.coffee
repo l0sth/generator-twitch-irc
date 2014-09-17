@@ -2,6 +2,7 @@ module.exports = (client) ->
 
   ###*
   Client crashed.
+
   @event crash
   @params {string} message
   @params {string} stack

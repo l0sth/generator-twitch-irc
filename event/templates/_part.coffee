@@ -2,6 +2,7 @@ module.exports = (client) ->
 
   ###*
   User has left a channel.
+
   @event part
   @params {string} channel
   @params {string} username

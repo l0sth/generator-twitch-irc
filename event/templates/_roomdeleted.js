@@ -1,6 +1,9 @@
 module.exports = function(client) {
     /**
-     * ROOMDELETED message sent by JTV.
+     * Used for private groups.
+     *
+     * There is no documentation by Twitch of what it does and when it is triggered.
+     *
      * @event roomdeleted
      * @params {string} room
      */

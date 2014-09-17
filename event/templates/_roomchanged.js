@@ -1,6 +1,9 @@
 module.exports = function(client) {
     /**
-     * ROOMCHANGED message sent by JTV.
+     * Used for private groups.
+     *
+     * There is no documentation by Twitch of what it does and when it is triggered.
+     *
      * @event roomchanged
      * @params {string} room
      */
