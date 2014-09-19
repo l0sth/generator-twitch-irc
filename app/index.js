@@ -37,12 +37,16 @@ var TwitchIRCGenerator = yeoman.generators.Base.extend({
   prompting: function () {
     var done = this.async();
 
-      console.log('  _____          _ _       _       ___ ____   ____ ');
-      console.log(' |_   _|_      _(_) |_ ___| |__   |_ _|  _ \\ / ___|');
-      console.log('   | | \\ \\ /\\ / / | __/ __| \'_ \\   | || |_) | |    ');
-      console.log('   | |  \\ V  V /| | || (__| | | |  | ||  _ <| |___ ');
-      console.log('   |_|   \\_/\\_/ |_|\\__\\___|_| |_| |___|_| \\_\\\\____|');
+      console.log('  _____          _ _       _          ___ ____   ____ ');
+      console.log(' |_   _|_      _(_) |_ ___| |__      |_ _|  _ \\ / ___|');
+      console.log('   | | \\ \\ /\\ / / | __/ __| \'_ \\ _____| || |_) | |    ');
+      console.log('   | |  \\ V  V /| | || (__| | | |_____| ||  _ <| |___ ');
+      console.log('   |_|   \\_/\\_/ |_|\\__\\___|_| |_|    |___|_| \\_\\\\____|');
+      console.log('                                                      ');
 
+      console.log(' ');
+      console.log('Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries.');
+      console.log('Twitch-IRC is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.');
       console.log(' ');
       var oldConfig = this.config.getAll();
       if (Object.getOwnPropertyNames(oldConfig).length === 0) {
