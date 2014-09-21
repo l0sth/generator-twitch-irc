@@ -9,8 +9,6 @@ client = new irc.client(
       "action"
     ]
     logging: true
-
-
   tc: <%= botTC %>
   identity:
     username: "<%= botName %>"
