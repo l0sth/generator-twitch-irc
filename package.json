@@ -1,7 +1,7 @@
 {
   "name": "generator-twitch-irc",
   "version": "0.1.4",
-  "description": "",
+  "description": "Generate a Twitch bot in a few steps!",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "https://github.com/Schmoopiie/generator-twitch-irc",
