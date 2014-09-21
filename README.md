@@ -1,7 +1,3 @@
-**WORK IN PROGRESS**
-
-This is a work in progress. Currently working on the documentation and fixing bugs.
-
 # generator-twitch-irc
 [![Build Status](https://secure.travis-ci.org/Schmoopiie/generator-twitch-irc.png?branch=master)](https://travis-ci.org/Schmoopiie/generator-twitch-irc) [![Code Climate](https://codeclimate.com/github/Schmoopiie/generator-twitch-irc/badges/gpa.svg)](https://codeclimate.com/github/Schmoopiie/generator-twitch-irc)
 
