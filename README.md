@@ -49,6 +49,14 @@ It is important for you to update from time to time your generators. Basically, 
 $ yo
 ```
 
+## Generating your bot
+
+Go into your project root directory and type:
+
+```bash
+$ yo twitch-irc
+```
+
 ## Updating your Twitch-IRC library
 
 Go into your project root directory and type:
