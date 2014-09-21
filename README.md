@@ -85,7 +85,7 @@ Only the basic code will be written for you.
 
 You can use all the Twitch commands with your bot.
 
-Please, check the [wiki](https://github.com/Schmoopiie/generator-twitch-irc/wiki/Commands) for more informations.
+[Click here for the commands documentation](https://github.com/Schmoopiie/generator-twitch-irc/wiki/Commands).
 
 ## Database
 
