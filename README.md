@@ -29,7 +29,7 @@ To install generator-twitch-irc from npm, run:
 $ npm install -g generator-twitch-irc
 ```
 
-Finally, initiate the generator:
+Finally, go into your project root directory and initiate the generator:
 
 ```bash
 $ yo twitch-irc
@@ -47,14 +47,6 @@ It is important for you to update from time to time your generators. Basically, 
 
 ```bash
 $ yo
-```
-
-## Generating your bot
-
-Go into your project root directory and type:
-
-```bash
-$ yo twitch-irc
 ```
 
 ## Updating your Twitch-IRC library
